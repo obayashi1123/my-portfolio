@@ -21,6 +21,7 @@ WebExpert コースのためのテンプレートです。
 4. ターミナルを使って、`webex`ディレクトリで clone します。
 
 ```zsh
+$ cd ~/webex
 $ git clone コピーしたURL
 ```
 
