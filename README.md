@@ -1,8 +1,12 @@
-# ポートフォリオ製作課題テンプレート
+# My Portfolio made while GeekSalon WebExpert Cource
 
-WebExpert コースのためのテンプレートです。
+My Portfolio Demo 👉 *[Github PagesのURLを記載]*
 
 (ここから上の行は、自分で編集してポートフォリオサイトの紹介にしてください。)
+
+# ポートフォリオ製作課題テンプレート
+
+GeekSalon WebExpert コースのポートフォリオ製作課題ためのテンプレートです。
 
 # このテンプレートを使う方法
 
