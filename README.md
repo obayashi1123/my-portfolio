@@ -8,15 +8,15 @@ WebExpert コースのためのテンプレートです。
 
 1. 右上の`Use this template`をクリックしてください。
 
-![use this template](https://docs.github.com/assets/images/help/repository/use-this-template-button.png)
+<img src="https://docs.github.com/assets/images/help/repository/use-this-template-button.png" width="640">
 
 2. `repository name`を`my-portfolio`で作成してください。
 
-![repository name](https://docs.github.com/assets/images/help/repository/create-repository-owner.png)
+<img src="https://docs.github.com/assets/images/help/repository/create-repository-owner.png" width="640">
 
 3. 作成したレポジトリの右上の`Clone`から URL をコピーしてください。
 
-![clone](https://docs.github.com/assets/images/help/repository/https-url-clone.png)
+<img src="https://docs.github.com/assets/images/help/repository/https-url-clone.png" width="640">
 
 4. ターミナルを使って、`webex`ディレクトリで clone します。
 
@@ -66,10 +66,10 @@ $ git checkout .
 
 1. このレポジトリの`settings`を開く
 
-![settings](https://pages.github.com/images/repo-settings@2x.png)
+<img src="https://pages.github.com/images/repo-settings@2x.png" width="640">
 
 2. `settings`にある`Github Pages`の設定で Source を`None`から`origin/master`に変更して`Save`する。
 
-![github pages](https://pages.github.com/images/launch-theme-chooser@2x.png)
+<img src="https://pages.github.com/images/launch-theme-chooser@2x.png" width="640">
 
 3. 表示された URL にアクセスしてデプロイされているか、確認したら完了。🎉🎉
