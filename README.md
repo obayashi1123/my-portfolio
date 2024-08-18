@@ -1,6 +1,6 @@
 # My Portfolio made while GeekSalon WebExpert Cource
 
-My Portfolio Demo 👉 *[Github PagesのURLを記載]*
+My Portfolio Demo 👉 _[Github Pages の URL を記載]_
 
 (ここから上の行は、自分で編集してポートフォリオサイトの紹介にしてください。)
 
@@ -51,7 +51,7 @@ Git を活用するとコーディングに役立ちます。
 ```zsh
 $ git add .
 $ git commit -m "コミットメッセージ"
-$ git push origin master
+$ git push origin main
 ```
 
 ## 最後にコミットした状態まで戻す方法
@@ -72,7 +72,7 @@ $ git checkout .
 
 <img src="https://pages.github.com/images/repo-settings@2x.png" width="640">
 
-2. `settings`にある`Github Pages`の設定で Source を`None`から`origin/master`に変更して`Save`する。
+2. `settings`にある`Github Pages`の設定で Source を`None`から`origin/main`に変更して`Save`する。
 
 <img src="https://pages.github.com/images/launch-theme-chooser@2x.png" width="640">
 
