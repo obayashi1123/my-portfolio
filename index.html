@@ -2,14 +2,118 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
-    <link rel="stylesheet" href="style.css" />
-    <title>My Portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      rel="stylesheet"
+    />
+    <title>Masaya Ohashi Homepage</title>
   </head>
   <body>
-    こんにちは
-    <script src="main.js"></script>
+    <header>
+      <div class="container header">
+        <div class="header-left">
+          <h1>Masaya Ohashi</h1>
+        </div>
+
+        <div class="header-right">
+          <nav>
+            <a href="#">Home</a>
+            <a href="#about-me">About Me</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="top-wrapper">
+        <div class="container">
+          <h1>MASAYA OHASHI</h1>
+        </div>
+      </div>
+
+      <div class="about-wrapper" id="about-me">
+        <div class="container">
+          <h1>About Me</h1>
+          <div class="about">
+            <div class="my-photo"><img src="img/my_img.jpg" /></div>
+
+            <div class="about-text">
+              <h2>大橋　正弥</h2>
+              <p>出身：栃木県壬生町</p>
+              <p>誕生日：12月28日</p>
+              <p>大学：東京都市大学</p>
+              <p>趣味：自転車・水泳</p>
+              <p>言語：Python・Rust</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-wrapper" id="portfolio">
+        <div class="container portfolio">
+          <h1>Portfolio</h1>
+          <div class="portfolio-items">
+            <div class="portfolio-item">
+              <a href="./portfolio/calculator/index.html"
+                ><h2>Calculator</h2></a
+              >
+              <img src="img/calculator.png" />
+              <p>シンプルな電卓です。</p>
+            </div>
+
+            <div class="portfolio-item">
+              <a href="#"><h2>Todo List</h2></a>
+              <img src="img/todo_list.jpg" />
+              <p>シンプルなTodoリストです。</p>
+            </div>
+
+            <div class="portfolio-item">
+              <a href="#"><h2>Stop Watch</h2></a>
+              <img src="img/stop_watch.webp" />
+              <p>シンプルなストップウォッチです。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-wrapper" id="contact">
+        <div class="container contact">
+          <h1>Contact</h1>
+          <p>お問い合わせは以下のフォームからお願いします。</p>
+          <div class="contact-form">
+            <form action="#" method="post">
+              <input
+                type="text"
+                name="name"
+                placeholder="お名前"
+                class="form-text"
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="メールアドレス"
+                class="form-text"
+              />
+              <textarea
+                name="message"
+                placeholder="お問い合わせ内容"
+                class="form-textarea"
+              ></textarea>
+              <input type="submit" value="送信" class="form-submit" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container footer">
+        <p>&copy; 2024 Masaya Ohashi</p>
+      </div>
+    </footer>
   </body>
 </html>
